@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bc6bf680d27174d8c19d8bd37619dd, type: 3}
+  m_Name: ShopItemList
+  m_EditorClassIdentifier: 
+  inventoryList:
+  - itemName: "N\xF3n 1"
+    itemImage: {fileID: 21300000, guid: cf96a9d698956ea46aa4c6f1f6344157, type: 3}
+    AttackBonus: 1
+    HealthBonus: 3
+    ItemType: 0
+    Price: 500
+  - itemName: "N\xF3n 2"
+    itemImage: {fileID: 21300000, guid: a39815610af62ce428093e599a8ea5e2, type: 3}
+    AttackBonus: 2
+    HealthBonus: 6
+    ItemType: 0
+    Price: 1000
+  - itemName: "N\xF3n 3"
+    itemImage: {fileID: 21300000, guid: 3a33633e1ba06874694a36a52f144896, type: 3}
+    AttackBonus: 3
+    HealthBonus: 9
+    ItemType: 0
+    Price: 2000
+  - itemName: "N\xF3n 4"
+    itemImage: {fileID: 21300000, guid: 37c4a0218c09cd242abe511b0b876c59, type: 3}
+    AttackBonus: 4
+    HealthBonus: 12
+    ItemType: 0
+    Price: 3000
+  - itemName: "N\xF3n 5"
+    itemImage: {fileID: 21300000, guid: e9a8390f5c126fe4ca429f01fb7306c0, type: 3}
+    AttackBonus: 5
+    HealthBonus: 15
+    ItemType: 0
+    Price: 5000
+  - itemName: "G\u0103ng tay 1"
+    itemImage: {fileID: 21300000, guid: 4bb85e9d81dd972438a5d43bf3dd0a87, type: 3}
+    AttackBonus: 2
+    HealthBonus: 2
+    ItemType: 2
+    Price: 500
+  - itemName: "G\u0103ng tay 2"
+    itemImage: {fileID: 21300000, guid: 5f0600d85e9a7f442858654de7765f10, type: 3}
+    AttackBonus: 4
+    HealthBonus: 4
+    ItemType: 2
+    Price: 1000
+  - itemName: "G\u0103ng tay 3"
+    itemImage: {fileID: 21300000, guid: c934a695880d5c8408520c24893c3b5f, type: 3}
+    AttackBonus: 6
+    HealthBonus: 6
+    ItemType: 2
+    Price: 2000
+  - itemName: "G\u0103ng tay 4"
+    itemImage: {fileID: 21300000, guid: 4534d6bc204de2e499d251a94190c25d, type: 3}
+    AttackBonus: 8
+    HealthBonus: 8
+    ItemType: 2
+    Price: 3000
+  - itemName: "G\u0103ng tay 5"
+    itemImage: {fileID: 21300000, guid: 8ab996bd41b0d684fa3fe604fe6c0f83, type: 3}
+    AttackBonus: 10
+    HealthBonus: 10
+    ItemType: 2
+    Price: 5000
+  - itemName: "\xC1o 1"
+    itemImage: {fileID: 21300000, guid: 41d512f6762714b4ba45218434190d91, type: 3}
+    AttackBonus: 2
+    HealthBonus: 2
+    ItemType: 1
+    Price: 500
+  - itemName: "\xC1o 2"
+    itemImage: {fileID: 21300000, guid: 4849ec8655a39f845ac9bf00a3cdc724, type: 3}
+    AttackBonus: 4
+    HealthBonus: 4
+    ItemType: 1
+    Price: 1000
+  - itemName: "\xC1o 3"
+    itemImage: {fileID: 21300000, guid: 15f306496ab25f3409589b05e4dd0bd9, type: 3}
+    AttackBonus: 6
+    HealthBonus: 6
+    ItemType: 1
+    Price: 2000
+  - itemName: "\xC1o 4"
+    itemImage: {fileID: 21300000, guid: f23b908312f9e5248ae3178f2ce53100, type: 3}
+    AttackBonus: 8
+    HealthBonus: 8
+    ItemType: 1
+    Price: 3000
+  - itemName: "\xC1o 5"
+    itemImage: {fileID: 21300000, guid: fb282987f1a8d854abe31fdea956eb6d, type: 3}
+    AttackBonus: 10
+    HealthBonus: 10
+    ItemType: 1
+    Price: 5000
+  - itemName: "Nh\u1EABn 1"
+    itemImage: {fileID: 21300000, guid: c82ba00115b0fc24b9ba1015900b31d4, type: 3}
+    AttackBonus: 1
+    HealthBonus: 5
+    ItemType: 4
+    Price: 600
+  - itemName: "Nh\u1EABn 2"
+    itemImage: {fileID: 21300000, guid: f7781d470d15f244ea5f6e2fe0666371, type: 3}
+    AttackBonus: 2
+    HealthBonus: 10
+    ItemType: 4
+    Price: 1200
+  - itemName: "Nh\u1EABn 3"
+    itemImage: {fileID: 21300000, guid: f2c25ec43a8949a4f97735170fad1e8c, type: 3}
+    AttackBonus: 3
+    HealthBonus: 15
+    ItemType: 4
+    Price: 2400
+  - itemName: "Nh\u1EABn 4"
+    itemImage: {fileID: 21300000, guid: c4de93e9656ab9049863d0661958483e, type: 3}
+    AttackBonus: 4
+    HealthBonus: 20
+    ItemType: 4
+    Price: 4000
+  - itemName: "Nh\u1EABn 5"
+    itemImage: {fileID: 21300000, guid: fb256c4c59055e74a9468c6644696453, type: 3}
+    AttackBonus: 5
+    HealthBonus: 25
+    ItemType: 4
+    Price: 6000
+  - itemName: "V\xF2ng 1"
+    itemImage: {fileID: 21300000, guid: 5ee7b9426bc4cc445926a3b693d98d2a, type: 3}
+    AttackBonus: 1
+    HealthBonus: 3
+    ItemType: 5
+    Price: 500
+  - itemName: "V\xF2ng 2"
+    itemImage: {fileID: 21300000, guid: 3252c361a003b834dab965200414190b, type: 3}
+    AttackBonus: 2
+    HealthBonus: 6
+    ItemType: 5
+    Price: 1000
+  - itemName: "V\xF2ng 3"
+    itemImage: {fileID: 21300000, guid: 292a772b5fedb3d419a59e4a170f0e53, type: 3}
+    AttackBonus: 3
+    HealthBonus: 9
+    ItemType: 5
+    Price: 2000
+  - itemName: "V\xF2ng 4"
+    itemImage: {fileID: 21300000, guid: b02ca333d88b94b49b7a8c3db615e3a7, type: 3}
+    AttackBonus: 4
+    HealthBonus: 12
+    ItemType: 5
+    Price: 3000
+  - itemName: "V\xF2ng 5"
+    itemImage: {fileID: 21300000, guid: 3fe45cc5b469cae44bd818a9d149827b, type: 3}
+    AttackBonus: 5
+    HealthBonus: 15
+    ItemType: 5
+    Price: 5000
+  - itemName: "Ki\u1EBFm 1"
+    itemImage: {fileID: 21300000, guid: dd5a1d840292ae848aa9102d471a4a70, type: 3}
+    AttackBonus: 2
+    HealthBonus: 2
+    ItemType: 3
+    Price: 1000
+  - itemName: "Ki\u1EBFm 2"
+    itemImage: {fileID: 21300000, guid: 595a75798dc5892409e82001d6cef6d9, type: 3}
+    AttackBonus: 4
+    HealthBonus: 4
+    ItemType: 3
+    Price: 2000
+  - itemName: "Ki\u1EBFm 3"
+    itemImage: {fileID: 21300000, guid: fec3d1337715028489fe247d5cdf3b28, type: 3}
+    AttackBonus: 10
+    HealthBonus: 6
+    ItemType: 3
+    Price: 5000
+  - itemName: "Ki\u1EBFm 4"
+    itemImage: {fileID: 21300000, guid: 48655c1ef4bfb7b4e824a861e99b4268, type: 3}
+    AttackBonus: 15
+    HealthBonus: 8
+    ItemType: 3
+    Price: 7000
+  - itemName: "Ki\u1EBFm 5"
+    itemImage: {fileID: 21300000, guid: 8a212b2438facb74c95d6796eb2259b1, type: 3}
+    AttackBonus: 20
+    HealthBonus: 10
+    ItemType: 3
+    Price: 10000
